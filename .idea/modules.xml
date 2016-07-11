@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/46_news2.iml" filepath="$PROJECT_DIR$/46_news2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_46_news/_46_news.iml" filepath="$PROJECT_DIR$/_46_news/_46_news.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aphidFlipViewLibrary/aphidFlipViewLibrary.iml" filepath="$PROJECT_DIR$/aphidFlipViewLibrary/aphidFlipViewLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingMenuLibrary/slidingMenuLibrary.iml" filepath="$PROJECT_DIR$/slidingMenuLibrary/slidingMenuLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPagerLibrary/viewPagerLibrary.iml" filepath="$PROJECT_DIR$/viewPagerLibrary/viewPagerLibrary.iml" />
+    </modules>
+  </component>
+</project>

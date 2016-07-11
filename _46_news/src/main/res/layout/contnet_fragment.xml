@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.lhycode.news.view.NoScrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            style="@style/BottomTab"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/news"
+            android:gravity="center_horizontal"
+            android:text="新闻"
+            android:textColor="@drawable/text_bottomtab_selecter" />
+
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            style="@style/BottomTab"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/hottalk"
+            android:text="热词"
+            android:textColor="@drawable/text_bottomtab_selecter" />
+
+        <RadioButton
+            android:id="@+id/radiobutton3"
+            style="@style/BottomTab"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/smile"
+            android:text="搞笑"
+            android:textColor="@drawable/text_bottomtab_selecter" />
+
+        <RadioButton
+            android:id="@+id/radiobutton4"
+            style="@style/BottomTab"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/health2"
+            android:text="健康"
+            android:textColor="@drawable/text_bottomtab_selecter" />
+
+        <RadioButton
+            android:id="@+id/radiobutton5"
+            style="@style/BottomTab"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/travel"
+            android:text="旅行"
+            android:textColor="@drawable/text_bottomtab_selecter" />
+    </RadioGroup>
+
+</LinearLayout>

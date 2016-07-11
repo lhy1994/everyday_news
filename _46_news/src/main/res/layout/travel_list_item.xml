@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="#fafafa"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/travel_spotname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/divider"
+            android:drawablePadding="3dp"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/travel_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="#424242"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/travel_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/news_logo" />
+
+        <Button
+            android:id="@+id/travel_book"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="3dp"
+            android:background="#81d4fa"
+            android:drawableBottom="@drawable/divider"
+            android:drawableRight="@android:drawable/ic_menu_call"
+            android:drawableTop="@drawable/divider"
+            android:text="去订票" />
+
+
+        <TextView
+            android:id="@+id/travel_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="asdasdashdlashdlksfhlahflahff"
+            android:textColor="#424242"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+</ScrollView>
